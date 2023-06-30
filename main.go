@@ -21,7 +21,7 @@ var db *sql.DB
 func init() {
 	// Initialize the database connection
 	var err error
-	db, err = sql.Open("mysql", "vaishnav:vaishnav@tcp(localhost:3306)/test")
+	db, err = sql.Open("mysql", "user:password@tcp(localhost:3306)/test")
 	if err != nil {
 		log.Fatalf("Failed to connect to the database: %v", err)
 	}
