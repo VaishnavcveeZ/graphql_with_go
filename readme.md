@@ -72,12 +72,12 @@ Before running the GraphQL API, make sure you have the following installed on yo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/graphql-api-go.git
+   git clone https://github.com/VaishnavcveeZ/graphql_with_go.git
 
 2. Navigate to the project directory:
 
     ```bash
-    cd graphql-api-go
+    cd graphql_with_go
 3. Install the necessary dependencies:
 
     ```bash
