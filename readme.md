@@ -50,9 +50,9 @@ Once the database is set up, you can build and run the GraphQL API server. The m
 ## Usage
 The GraphQL API supports the following operations:
 
-- Get all books: Sends a GET request to /graphql with a query to retrieve all books.
+- Get all books: Sends a POST request to /graphql with a query to retrieve all books.
 
-- Get a book by ID: Sends a GET request to /graphql with a query to retrieve a specific book by its ID.
+- Get a book by ID: Sends a POST request to /graphql with a query to retrieve a specific book by its ID.
 
 - Create a new book: Sends a POST request to /graphql with a mutation to create a new book.
 
@@ -115,7 +115,7 @@ Before running the GraphQL API, make sure you have the following installed on yo
 You can interact with the GraphQL API using tools like GraphiQL or Postman. The API supports the following operations:
 
 ## Get all books
-Send a GET request to http://localhost:8080/graphql with the following query:
+Send a POST request to http://localhost:8080/graphql with the following query:
 
 
 ```graphql
@@ -129,7 +129,7 @@ Send a GET request to http://localhost:8080/graphql with the following query:
 ```
 
 ## Get a book by ID
-Send a GET request to http://localhost:8080/graphql with the following query, replacing <book-id> with the actual book ID:
+Send a POST request to http://localhost:8080/graphql with the following query, replacing <book-id> with the actual book ID:
 
 
 ```graphql
